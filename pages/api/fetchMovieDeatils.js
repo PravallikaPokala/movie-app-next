@@ -7,12 +7,8 @@ export async function fetchMovieDetails({ params }) {
       throw new Error("Failed to fetch movie");
     }
     const movie = await response.json();
-    // const moviesList = await fetchMovies(context);
     return {
-      props: {
-        movie,
-        // moviesList,
-      },
+      movie,
     };
   } catch (error) {
     console.error("Error fetching movie:", error);

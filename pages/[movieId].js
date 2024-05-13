@@ -19,7 +19,7 @@ export async function getServerSideProps({ query, params }) {
       fetchMovies({ query }),
       fetchMovieDetails({ params }),
     ]);
-
+    console.log(response2);
     return {
       props: {
         movie: response2.movie,
