@@ -1,0 +1,125 @@
+.movie-form {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-left {
+  flex: 0 0 58%;
+}
+
+.form-right {
+  flex: 0 0 38%;
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f65261;
+}
+
+.form-row input,
+.form-row select {
+  width: 100%;
+  padding: 18px;
+  background-color: #424242;
+  border: 1px solid #424242;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.submit {
+  border: none;
+  color: #ffffff;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #f65261;
+  border: 2px solid #f65261;
+}
+
+.button-reset {
+  border: 2px solid #f65261;
+  color: #f65261;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.button-row {
+  float: right;
+  margin-top: 20px;
+}
+
+.button-row button {
+  margin-right: 10px;
+}
+
+.textAreaLable {
+  display: block;
+  margin-bottom: 5px;
+  color: #f65261;
+}
+
+.form-textarea textarea {
+  width: 100%;
+  padding: 18px 20px;
+  background-color: #424242;
+  border: 1px solid #424242;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  resize: vertical;
+}
+
+/* Hide the scrollbar track */
+.form-textarea textarea::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Style the scrollbar thumb */
+.form-textarea textarea::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* Color of the scrollbar thumb */
+  border: 1px solid #ddd; /* Thin border around the thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+  cursor: pointer;
+}
+
+/* Style the scrollbar thumb on hover */
+.form-textarea textarea::-webkit-scrollbar-thumb:hover {
+  background-color: #999; /* Color of the thumb on hover */
+}
+
+/* Style the scrollbar track */
+.form-textarea textarea::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Style the scrollbar track when hovered */
+.form-textarea textarea::-webkit-scrollbar:hover {
+  background-color: #f0f0f0; /* Background color of the track on hover */
+}
+
+.error {
+  color: red; /* Set the desired color for error messages */
+}

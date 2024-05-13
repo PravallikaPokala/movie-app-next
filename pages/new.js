@@ -1,3 +1,4 @@
+import AddSearchForm from "@/components/Search/AddSearchForm";
 import Layout from "./Layout";
 import { fetchMovies } from "./api/fetchMovies";
 import MovieTileList from "@/components/MovieTileList";
@@ -28,6 +29,7 @@ export default function Home({ moviesList }) {
       <Layout>
         <SearchForm></SearchForm>
         <MovieTileList moviesList={moviesList} />;
+        <AddSearchForm />
       </Layout>
     </>
   );
