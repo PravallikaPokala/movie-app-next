@@ -68,10 +68,12 @@ const MovieTile = ({ movie, onClick, onDelete }) => {
           {showContextMenu && (
             <ul className={styles.contextMenu}>
               <li className={styles.liHover} style={{ listStyleType: "none" }}>
-                <Link href={`${movie.id}/edit`} passHref>
-                  <a href="/" className={styles.editLink} onClick={handleEdit}>
-                    Edit
-                  </a>
+                <Link
+                  href={`${movie.id}/edit`}
+                  className={styles.editLink}
+                  onClick={handleEdit}
+                >
+                  Edit
                 </Link>
               </li>
               <li

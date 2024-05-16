@@ -27,7 +27,7 @@ export default function Home({ moviesList }) {
     <>
       <Layout>
         <SearchForm></SearchForm>
-        <MovieTileList moviesList={moviesList} />;
+        <MovieTileList moviesList={moviesList} />
       </Layout>
     </>
   );

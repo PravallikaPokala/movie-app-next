@@ -17,15 +17,20 @@ const MovieInfo = ({ movie }) => {
         }}
       >
         <span
+          className="icon-container"
           style={{
+            marginRight: "10px",
+            cursor: "pointer",
+            color: "red",
             fontSize: "20px",
             backgroundColor: "transparent",
             border: "none",
-            marginRight: "10px",
-            cursor: "pointer",
+            display: "inline-block",
+            width: "20px",
+            height: "20px",
           }}
         >
-          <FontAwesomeIcon icon={faSearch} style={{ color: "red" }} />
+          <FontAwesomeIcon icon={faSearch} />
         </span>
       </Link>
 

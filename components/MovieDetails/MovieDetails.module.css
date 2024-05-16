@@ -33,3 +33,14 @@
   justify-content: center;
   margin-left: 20px;
 }
+
+.iconContainer {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBc_P5i_bBfDPmIdcykDNbJtHtX1Az83SwiwA6W622VA&s");
+  background-size: cover;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+}
